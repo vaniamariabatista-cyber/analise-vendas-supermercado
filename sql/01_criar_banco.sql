@@ -1,0 +1,1 @@
+CREATE DATABASE analise_vendas_supermercado;
