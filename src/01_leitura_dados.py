@@ -36,3 +36,11 @@ print(df['Payment'].unique())
 
 print("\n=== QUANTIDADE DE VENDAS POR CATEGORIA DE PRODUTO ===")
 print(df["Product line"].value_counts())
+
+
+vendas_categoria = pd.read_csv("data/raw/vendas_por_categoria.csv")
+
+print("=== Vendas por categoria (exportado do PostgreSQL) ===")
+print(vendas_categoria.head())
+print(vendas_categoria.info())
+print(vendas_categoria.describe())
